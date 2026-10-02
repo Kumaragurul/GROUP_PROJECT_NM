@@ -1,0 +1,9 @@
+# Treat Office documents and PDFs as binary so Git never applies
+# line-ending conversion or text diffing to them.
+*.docx binary
+*.pdf  binary
+*.xlsx binary
+*.pptx binary
+
+# Normalize text files in the repo
+* text=auto

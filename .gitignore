@@ -1,0 +1,17 @@
+# Tooling / editor session state
+.frolic-session.json
+.kilo/
+.vscode/
+.idea/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Office temp/owner files
+~$*
+.~lock.*
+
+# Excel/Word lock files
+*.tmp
